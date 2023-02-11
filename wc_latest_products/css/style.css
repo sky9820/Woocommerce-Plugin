@@ -1,0 +1,44 @@
+/**
+Custom plugin CSS 
+*/
+
+div#custom_template_widgets{
+	width: 100%;
+}
+.widget_wc_latest_product_widget,
+.product.wp_widget_plugin_box {
+    background: #f6f1f1;
+    padding: 20px;
+}
+
+.widget_wc_latest_product_widget .wclp-product {
+    width: 33%;
+    display: inline-block;
+    margin-bottom: 40px;
+	vertical-align: top;
+}
+.widget_wc_latest_product_widget .wclp-product a.product-link {
+    text-align: center;
+    font-size: 15px;
+}
+
+.widget_wc_latest_product_widget .wclp-product a.product-link span.price{
+	text-align: center;
+	display: block;
+}
+
+a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart,
+a.button.product_type_variable.add_to_cart_button {
+    display: block;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    border-radius: 4px;
+	margin: 10px;
+}
+.product.wp_widget_plugin_box .wclp-product {
+    width: 33%;
+    display: inline-block;
+    padding: 10px;
+    vertical-align: top;
+}
